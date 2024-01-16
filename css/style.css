@@ -143,52 +143,6 @@ nav ul li:hover a {
     color: #FF5400;
 }
 
-/* ===============================
-    Header Style Start
-================================== */
-
-@media screen and (max-width:992px) {
-    
-
-
-    .logo img {
-        height: 24px;
-        object-fit: cover;
-    }
-
-    .hero,
-    .travel {
-        font-size: 22px;
-    }
-
-    nav ul li {
-        display: none;
-    }
-    nav ul .menu-icon {
-        display: block;
-        font-size: 30px;
-    }
-    .banner-text-box h1 {
-        font-size: 24px;
-    }
-
-    .banner-box {
-        padding: 100px 50px;
-    }
-}
-
-@media screen amd (max-width:768px) {
-    
-}
-
-@media screen and (max-width:576px) {
-    
-}
-
-/* ===============================
-    Header Style End
-================================== */
-
 /* Banner Style */
 .banner-box {
     padding: 185px 106px;
@@ -239,46 +193,6 @@ nav ul li:hover a {
     margin-bottom: -3px;
 }
 
-/* ===============================
-    Banner Style Start
-================================== */
-
-
-@media screen and (max-width:992px) {
-
-    .banner-box {
-        padding: 100px 50px;
-    }
-
-    .find-box {
-        flex-direction: column;
-    }
-
-    .find-box input {
-        display: block;
-        width: 100%;
-        margin-bottom: 15px;
-        font-size: 14px;
-    }
-
-    .find-box .btn-primary {
-        font-size: 16px;
-    }
-}
-
-@media screen amd (max-width:768px) {
-    
-}
-
-@media screen and (max-width:576px) {
-    
-}
-
-
-
-/* ===============================
-    Banner Style End
-================================== */
 
 /* Tour Style */
 .tour-container {
@@ -295,43 +209,6 @@ nav ul li:hover a {
     margin: 20px 0 20px 20px;
     width: 80%;
 }
-
-/* ===============================
-    Tour Style Start
-================================== */
-
-
-@media screen and (max-width:992px) {
-
-    .tour-container {
-        flex-direction: column;
-    }
-
-    .tour-item img {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .tour-container h2 {
-        font-size: 28px;
-    }
-
-}
-
-@media screen amd (max-width:768px) {
-    
-}
-
-@media screen and (max-width:576px) {
-    
-}
-
-
-
-/* ===============================
-    Tour Style End
-================================== */
-
 
 /* Galary Style */
 .galary-text-box {
@@ -469,42 +346,6 @@ h4 {
     /* width: 70%; */
 }
 
-/* ===============================
-    About Us Style Start
-================================== */
-
-
-@media screen and (max-width:768px) {
-    .galary-text-box h2 {
-        font-size: 28px;
-        margin-bottom: 15px;
-    }
-    .about-us-item1 {
-        grid-column: 1 / span 12;
-        margin-bottom: -40px;
-        
-    }
-    .about-us-item2 {
-        grid-column: 1 / span 12;
-        margin-bottom: -20px;
-    }
-    
-    .about-us-item3 {
-        grid-column: 1 / span 12;
-    }
-    
-}
-
-@media screen and (max-width:576px) {
-    
-}
-
-
-
-/* ===============================
-    About Us Style End
-================================== */
-
 /* Discount style */
 
 .package-section {
@@ -565,55 +406,6 @@ h4 {
     margin-top: 20px;
 }
 
-/* ===============================
-    Discount Style Start
-================================== */
-
-@media screen and (max-width:992px) {
-    .package-section {
-        padding: 150px 20px  40px 20px;
-        background-size: cover;
-    }
-
-    .about-us-item1 img {
-        width: 60px;
-    }
-    
-}
-
-@media screen and (max-width:768px) {
-    .frame ion-icon {
-        font-size: 25px;
-        display: block;
-        margin-left: 25px;
-    }
-    
-}
-
-@media screen and (max-width:576px) {
-
-    .frame ion-icon {
-        font-size: 20px;
-        display: block;
-        margin-left: -7px;
-    }
-
-    .package-section h5 {
-        font-size: 20px;
-    }
-
-    .package-section .btn-primary {
-        font-size: 15px;
-    }
-}
-
-
-
-/* ===============================
-    Discount Style End
-================================== */
-
-
 /* Newsletter style */
 
 .newsletter-container {
@@ -625,7 +417,7 @@ h4 {
     width: 80%;
     border: 1px solid #FF5400;
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 10px;
 }
 .newsletter-item1 p {
@@ -642,7 +434,8 @@ h4 {
 
 .newsletter-item2 img {
     display: block;
-    width: 100%;
+    width: 600px;
+    height: 100%;
 }
 
 .offer-box {
@@ -684,41 +477,6 @@ h4 {
     font-size: 16px;
 }
 
-/* ===============================
-    Discount Style Start
-================================== */
-
-@media screen and (max-width:992px) {
-    .newsletter-item2 img {
-        display: block;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    
-    .newsletter-container {
-        flex-direction: column;
-    }
-
-    .offer-box h6 {
-        font-size: 16px;
-    }
-    .offer-box h5 {
-        font-size: 20px;
-    }
-    
-    
-    
-}
-
-@media screen and (max-width:576px) {
-
-}
-
-
 /* Footer Style */
 
 footer {
@@ -756,13 +514,162 @@ hr {
 
 
 @media screen and (max-width:992px) {
-    
+    .logo img {
+        height: 24px;
+        object-fit: cover;
+    }
+
+    .hero,
+    .travel {
+        font-size: 22px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+    nav ul .menu-icon {
+        display: block;
+        font-size: 30px;
+    }
+    .banner-text-box h1 {
+        font-size: 24px;
+    }
+
+    .banner-box {
+        padding: 100px 50px;
+    }
+
+    .banner-box {
+        padding: 100px 50px;
+    }
+
+    .find-box {
+        flex-direction: column;
+    }
+
+    .find-box input {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .find-box .btn-primary {
+        font-size: 16px;
+    }
+
+    .tour-container {
+        flex-direction: column;
+    }
+
+    .tour-item img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .tour-container h2 {
+        font-size: 28px;
+    }
+
+    .package-section {
+        padding: 150px 20px  40px 20px;
+        background-size: cover;
+    }
+
+    .about-us-item1 img {
+        width: 60px;
+    }
+
+    .newsletter-item2 img {
+        display: inline-block;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .newsletter-item2 img {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen amd (max-width:768px) {
+    .galary-text-box h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .about-us-item1 {
+        grid-column: 1 / span 12;
+        margin-bottom: -40px;
+        
+    }
+    .about-us-item2 {
+        grid-column: 1 / span 12;
+        margin-bottom: -20px;
+    }
+    
+    .about-us-item3 {
+        grid-column: 1 / span 12;
+    }
+
+    .frame ion-icon {
+        font-size: 25px;
+        display: block;
+        margin-left: 25px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .offer-box h6 {
+        font-size: 16px;
+    }
+    .offer-box h5 {
+        font-size: 20px;
+    }
     
 }
 
 @media screen and (max-width:576px) {
+    .frame ion-icon {
+        font-size: 20px;
+        display: block;
+        margin-left: -7px;
+    }
+
+    .package-section h5 {
+        font-size: 20px;
+    }
+
+    .package-section .btn-primary {
+        font-size: 15px;
+    }
+
+    .about-us-item1 {
+        grid-column: 1 / span 12;
+        margin-bottom: -40px;
+        
+    }
+    .about-us-item2 {
+        grid-column: 1 / span 12;
+        margin-bottom: -20px;
+    }
     
+    .about-us-item3 {
+        grid-column: 1 / span 12;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .sing-in-box input {
+        width: 100%;
+    }
+
+    .newsletter-item1 {
+        width: 100%;
+      }
 }
