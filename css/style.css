@@ -406,6 +406,30 @@ h4 {
     margin-top: 20px;
 }
 
+/* Place record style */
+
+.place-record-container {
+    display: flex;
+    gap: 20px;
+}
+.place-record-item {
+    width: 100%;
+}
+
+.place-record-item p {
+    margin: 15px 0;
+}
+
+.place-record-item ul li  {
+    margin: 15px 15px ;
+}
+
+.place-record-item video {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
 /* Newsletter style */
 
 .newsletter-container {
@@ -580,6 +604,14 @@ hr {
         width: 60px;
     }
 
+    .place-record-container {
+        flex-direction: column;
+    }
+
+    .place-record-container h2 {
+        font-size: 30px;
+    }
+
     .newsletter-item2 img {
         display: inline-block;
         height: 100%;
@@ -619,9 +651,6 @@ hr {
         margin-left: 25px;
     }
 
-    .newsletter-container {
-        flex-direction: column;
-    }
 
     .offer-box h6 {
         font-size: 16px;
@@ -669,7 +698,15 @@ hr {
         width: 100%;
     }
 
+    .btn-primary {
+        font-size: 16px;
+    }
+
     .newsletter-item1 {
         width: 100%;
       }
+
+      .place-record-container h2 {
+        font-size: 24px;
+    }
 }
